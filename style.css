@@ -5,38 +5,45 @@ body{
 .btn-container{
     display: flex;
     justify-content:center;
-    
+    margin:3rem;
     
 }
 
-.green {
-   background-color: green;
+.red{
+    background-color: #d95980;
+    width:200px;
+    height:200px; 
+    border-radius:20%;
+    margin:20px;
+    border: 10px solid black;
+}
+
+.yellow{
+   background-color: #f99b45;
    width:200px;
    border-radius:20%;
    border: 10px solid black;
    height:200px; 
+   margin:20px;
+   /* padding:30px; */
 }
 
-.red{
-    background-color: red;
-    width:200px;
-    height:200px; 
-    border-radius:20%;
-    border: 10px solid black;
-}
-
-.blue{
-    background-color: blue;
-    width:200px;
-    height:200px; 
-    border-radius:20%;
-    border: 10px solid black;
-}
-
-.orange{
-    background-color: orange;
+.green{
+    background-color: #63aac0;
     width:200px;
     height:200px;
     border-radius:20%;
+    margin:20px;
     border: 10px solid black;
 }
+
+.purple{
+    background-color: #819ff9;
+    width:200px;
+    height:200px; 
+    border-radius:20%;
+    margin:20px;
+    border: 10px solid black;
+}
+
+
