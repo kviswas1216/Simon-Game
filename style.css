@@ -6,7 +6,6 @@ body{
     display: flex;
     justify-content:center;
     margin:3rem;
-    
 }
 
 .red{
@@ -48,4 +47,8 @@ body{
 
 .flash{
     background-color: white;
+}
+
+.userflash{
+    background-color: green;
 }
